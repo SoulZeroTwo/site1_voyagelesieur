@@ -1,3 +1,206 @@
-/*------
+/*-----------
 BASE
------*/
+----------*/
+
+html{
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+/*----------
+ELEMENTS
+----------*/
+
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: "Roboto", serif;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/*----------
+COMPONENTS
+----------*/
+
+/*HEADER*/
+
+header{
+    background-color: #F26C25;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header p{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+header ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+
+header a{
+    color: white;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+}
+
+/*BANNER*/
+
+.banner{
+    background-color: #EEEEEE;
+}
+
+.banner .wrapper{
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 7.2px;
+}
+
+/*TRANSPORT*/
+
+.titresection{
+    background-color: #EEEEEE;
+
+    border: solid 1px #D0D0D0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 60px;
+
+    margin-top: 80px;
+    margin-bottom: 60px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.conteneurtransport{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h3 .bold{
+    font-weight: 700;
+}
+
+article p{
+    text-align: center;
+}
+
+/*FOOTER*/
+
+footer a{
+    width: 32px;
+    height: 32px;
+
+    display: inline-block;
+}
+
+.facebook a{
+    background-image: url("../images/facebook-nb.jpg");
+}
+
+.twitter a{
+    background-image: url("../images/twitter-nb.jpg");
+}
+
+.linkedin a{
+    background-image: url("../images/linkedin-nb.jpg");
+}
+
+.pinterest a{
+    background-image: url("../images/pinterest-nb.jpg");
+}
+
+.facebook a:hover{
+    background-image: url("../images/facebook-survol.jpg");
+}
+
+.twitter a:hover{
+    background-image: url("../images/twitter-survol.jpg");
+}
+
+.linkedin a:hover{
+    background-image: url("../images/linkedin-survol.jpg");
+}
+
+.pinterest a:hover{
+    background-image: url("../images/pinterest-survol.jpg");
+}
+
+footer ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+}
+
+h4{
+    color: white;
+}
