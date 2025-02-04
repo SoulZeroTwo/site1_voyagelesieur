@@ -129,6 +129,7 @@ h2{
     margin-bottom: 60px;
 }
 
+
 h3{
     font-size: 36px;
     font-weight: 300;
@@ -203,4 +204,11 @@ footer{
 
 h4{
     color: white;
+}
+
+
+/*JAVASCRIPT*/
+
+.conteneurtransport-disabled{
+    display: none;
 }
